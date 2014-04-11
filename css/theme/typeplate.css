@@ -11,7 +11,7 @@
 /*body {  background: url('http://typeplate.com/img/subtle_grunge.png?1365306827');  }*/
 
 .reveal {
-  font-family: Georgia, serif;
+  font-family: 'Times New Roman', 'Times', Georgia, serif;
   font-size: 36px;
   font-weight: 200;
   letter-spacing: -0.02em;
@@ -171,6 +171,12 @@
   transition: all .5s ease-out;
 }
 
+.reveal .slides ul.chart {
+  position: absolute;
+  left: 400px;
+  top: 33%;
+  width: 100%;
+}
 .reveal .slides section.magic-moment .fragment.visible {
   opacity: 1;
 }
