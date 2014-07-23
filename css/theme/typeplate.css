@@ -149,6 +149,10 @@
   color: white;
 }
 
+.reveal ul {
+  width: 100% !important;
+}
+
 .reveal ul.blocks {
   width: 100%;
   list-style-type: none;
